@@ -22,3 +22,15 @@
 #cat {
   display: inline-block;
 }
+
+.name {
+  font-weight:bold;
+}
+
+.info {
+  font-style:italic;   
+}
+
+.adopt {
+  font-weight:bold;
+}

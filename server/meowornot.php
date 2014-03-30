@@ -76,7 +76,7 @@
       </a>
     </span>
 
-    <a class="navbar-brand" href="#">Meow Or Not</a>
+    <a class="navbar-brand" href="#">Plenty of Cats</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="#about">About</a></li>
@@ -87,15 +87,19 @@
   </div>
 </div>
 
-<div class="container-fluid center-block">
-  <div id="cat">
+<div class="container-fluid center-block" style="max-width:720px;margin:auto;">
+  <div id="cat" class="col-sm-12" >
+      <h1 style="text-align:center">Meow Or Not</h1>
+      <br />
     <img id="cat-img" src="<?php echo $image_url ?>" class="img-responsive" alt="Responsive image">
 
     <br/>
     <div class="btn-group mw-btn-group container-fluid">
       <br/>
-      <button id="meow" type="button" class="btn btn-large btn-success meow-btn">Meow</button>
-      <button id="notmeow" type="button" class="btn btn-large btn-warning not-btn">Not</button>
+      <form action="http://plentyofcats.com/poc/cats.php" method="GET">
+        <button id="meow" type="submit" class="btn col-sm-5  col-xs-5 btn-large btn-success meow-btn">Meow</button>
+        <button id="notmeow" type="submit" class="btn col-sm-5 col-xs-5 btn-large btn-warning not-btn">Not</button>
+      </form>
       <br />
     </div>
 
@@ -104,7 +108,7 @@
   </div>
 
   <div class="info">
-      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?> Age:<?php echo $age ?>
+      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?> <?php echo $age ?>
   </div>
 
     <div id="cat-description" >
