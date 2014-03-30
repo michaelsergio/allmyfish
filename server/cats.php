@@ -26,3 +26,5 @@ mysql_close();
               }
     echo json_encode(array('Cats' => (array)$rows));
     ?>
+
+include 'client/app/meowornot.html';
