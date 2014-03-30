@@ -20,6 +20,9 @@
         <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
 
         <link rel="stylesheet" href="styles/meowornot.css">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+
         <!-- endbuild -->
         <script src="scripts/meowornot.js"></script>
         <!-- endbuild -->
