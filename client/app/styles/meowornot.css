@@ -4,8 +4,21 @@
 }
 .not-btn {
   min-width:150px;
+}
+#notmeow {
   float: right;
 }
+
 .mw-btn-group {
   min-width:320px;
+  width: 100%;
+}
+#cat-img {
+  display: inline-block;
+  max-width: 500px;
+  max-height: 70%;
+  width: 100%;
+}
+#cat {
+  display: inline-block;
 }
