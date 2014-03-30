@@ -15,9 +15,6 @@
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
         <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/underscore/underscore.js"></script>
-        <script src="bower_components/underscore/underscore.js"></script>
-        <script src="bower_components/backbone/backbone.js"></script>
 
         <!-- build:css styles/vendor/bootstrap.css -->
         <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
@@ -101,18 +98,22 @@
       <button id="notmeow" type="button" class="btn btn-large btn-warning not-btn">Not</button>
       <br />
     </div>
-    <?php echo $cat_name ?>
 
-    <?php echo $desc ?>
-    <?php echo $adoption_url ?>
-    <?php echo $location ?>
-    <?php echo $breed ?>
-    <?php echo $size ?>
-    <?php echo $age ?>
-    <?php echo $image_url ?>
-    <?php echo $petfinder ?>
+  <div class="name">
+      <?php echo $cat_name ?>
+  </div>
+
+  <div class="info">
+      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?> Age:<?php echo $age ?>
+  </div>
 
     <div id="cat-description" >
+      <?php echo $desc ?>
+    </div>
+
+    <div class="adopt">
+    Adopt Here: 
+    <a href="<?php echo $adoption_url ?>"><?php echo $adoption_url ?></a>
     </div>
   </div>
 </div> <!-- /container -->
