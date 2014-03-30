@@ -26,8 +26,11 @@ $(document).ready(function() {
   cat.fetch();
 
   var profile = cat.get("description");
+
+
   // Pop up profile on profile click 
   // Maybe display short bit here
+  $('#cat-description').text("cat description here");
 
   //var isAdoptable = cat.get("is_adoptable");
   // var location = cat.get("location");
