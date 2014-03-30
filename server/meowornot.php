@@ -92,7 +92,7 @@
 
 <div class="container-fluid center-block">
   <div id="cat">
-    <img id="cat-img" src="<?php cat_image ?>" class="img-responsive" alt="Responsive image">
+    <img id="cat-img" src="<?php echo $image_url ?>" class="img-responsive" alt="Responsive image">
 
     <br/>
     <div class="btn-group mw-btn-group container-fluid">
@@ -101,16 +101,16 @@
       <button id="notmeow" type="button" class="btn btn-large btn-warning not-btn">Not</button>
       <br />
     </div>
-    <?php cat_name ?>
+    <?php echo $cat_name ?>
 
-    <?php $desc ?>
-    <?php $adoption_url ?>
-    <?php $location ?>
-    <?php $breed ?>
-    <?php $size ?>
-    <?php $age ?>
-    <?php $image_url ?>
-    <?php $petfinder ?>
+    <?php echo $desc ?>
+    <?php echo $adoption_url ?>
+    <?php echo $location ?>
+    <?php echo $breed ?>
+    <?php echo $size ?>
+    <?php echo $age ?>
+    <?php echo $image_url ?>
+    <?php echo $petfinder ?>
 
     <div id="cat-description" >
     </div>
