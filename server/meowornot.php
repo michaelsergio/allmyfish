@@ -106,7 +106,7 @@
   </div>
 
   <div class="info">
-      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?><?php echo $age ?>
+      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?> <?php echo $age ?>
   </div>
 
     <div id="cat-description" >
