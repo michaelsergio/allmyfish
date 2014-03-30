@@ -16,7 +16,8 @@ $(document).ready(function() {
       this.increment("not_count", onSuccess);
     },
     increment: function(field, onSuccess) {
-      var url = "http://plentyofcats.com/poc/cats.php?id=1" + "&field" + field;
+      var url = "http://plentyofcats.com/poc/cats.php?id=1" + 
+                "&field=" + field;
       _.bind($.get(url, {'id':this.id}, onSuccess), this);  
     },
 
