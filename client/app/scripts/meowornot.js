@@ -30,7 +30,8 @@ $(document).ready(function() {
 
   // Pop up profile on profile click 
   // Maybe display short bit here
-  $('#cat-description').text("cat description here");
+  
+  // $('#cat-description').text("cat description here");
 
   //var isAdoptable = cat.get("is_adoptable");
   // var location = cat.get("location");
