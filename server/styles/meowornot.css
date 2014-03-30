@@ -15,7 +15,6 @@
 }
 #cat-img {
   display: inline-block;
-  max-width: 500px;
   max-height: 70%;
   width: 100%;
 }
