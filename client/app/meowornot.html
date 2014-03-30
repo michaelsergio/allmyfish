@@ -22,7 +22,7 @@
         <!-- build:css styles/vendor/bootstrap.css -->
         <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
 
-        <link rel="stylesheet" href="styles/vendor/meowornot.css">
+        <link rel="stylesheet" href="styles/meowornot.css">
         <!-- endbuild -->
         <script src="scripts/meowornot.js"></script>
         <!-- endbuild -->
@@ -105,8 +105,10 @@
     <img id="cat-img" src="http://placekitten.com/g/320/250" class="img-responsive" alt="Responsive image">
 
     <br/>
-    <button id="meow" type="button" class="btn btn-large btn-default">Meow</button>
-    <button id="notmeow" type="button" class="btn btn-large btn-default">Not</button>
+    <div class="btn-group mw-btn-group">
+      <button id="meow" type="button" class="btn btn-large btn-success meow-btn">Meow</button>
+      <button id="notmeow" type="button" class="btn btn-large btn-warning not-btn">Not</button>
+    </div>
   </div>
 </div> <!-- /container -->
 
