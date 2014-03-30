@@ -1,0 +1,14 @@
+{
+  "name": "jquery-mobile",
+  "homepage": "https://github.com/jquery/jquery-mobile",
+  "version": "1.2.1",
+  "_release": "1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.1",
+    "commit": "27e3c18acfebab2d47ee7ed37bd50fc4942c8838"
+  },
+  "_source": "git://github.com/jquery/jquery-mobile.git",
+  "_target": "~1.2.1",
+  "_originalSource": "jquery-mobile"
+}

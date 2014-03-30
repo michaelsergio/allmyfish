@@ -5,7 +5,8 @@
     "bootstrap": "~3.0.0",
     "modernizr": "~2.6.2",
     "jquery": "~1.9.1",
-    "backbone": "~1.1.2"
+    "backbone": "~1.1.2",
+    "jquery-mobile": "~1.2.1"
   },
   "devDependencies": {}
 }
