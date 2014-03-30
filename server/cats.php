@@ -21,10 +21,15 @@ $count_final = mysql_num_rows($result);
 mysql_close();
 
 
-    while($row = mysql_fetch_array( $result, MYSQL_ASSOC )) {
-    $rows[] = $row;
-              }
-    echo json_encode(array('Cats' => (array)$rows));
-    ?>
+$row = mysql_fetch_array( $result, MYSQL_ASSOC );
+$cat_name = $row['name'];
+$adoption_url $row['adoption_url'];
+$location = $row['location'];
+$breed = $row['breed'];
+$size = $row['size'];
+$age = $row['age'];
+$image_url; = $row['image_url'];
+$petfinder = "http://www.petfinder.com/petdetail/28343045".$row['petfinder_id'];
+?>
 
-include 'client/app/meowornot.html';
+include 'meowornot.html';
