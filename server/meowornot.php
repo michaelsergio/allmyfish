@@ -94,8 +94,10 @@
     <br/>
     <div class="btn-group mw-btn-group container-fluid">
       <br/>
-      <button id="meow" type="button" class="btn btn-large btn-success meow-btn">Meow</button>
-      <button id="notmeow" type="button" class="btn btn-large btn-warning not-btn">Not</button>
+      <form action="http://plentyofcats.com/poc/cats.php" method="GET">
+        <button id="meow" type="submit" class="btn btn-large btn-success meow-btn">Meow</button>
+        <button id="notmeow" type="submit" class="btn btn-large btn-warning not-btn">Not</button>
+      </form>
       <br />
     </div>
 
@@ -104,7 +106,7 @@
   </div>
 
   <div class="info">
-      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?> Age:<?php echo $age ?>
+      At <?php echo $location ?>. <?php echo $breed ?> <?php echo $size ?><?php echo $age ?>
   </div>
 
     <div id="cat-description" >
