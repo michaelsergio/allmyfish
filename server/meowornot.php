@@ -89,8 +89,6 @@
 
 <div class="container-fluid center-block" style="max-width:720px;margin:auto;">
   <div id="cat" class="col-sm-12" >
-      <h1 style="text-align:center">Meow Or Not</h1>
-      <br />
     <img id="cat-img" src="<?php echo $image_url ?>" class="img-responsive" alt="Responsive image">
 
     <br/>
