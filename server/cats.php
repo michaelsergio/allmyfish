@@ -14,6 +14,7 @@ mysql_close();
 
 $row = mysql_fetch_array( $result, MYSQL_ASSOC );
 $cat_name = $row['name'];
+$desc = $row['description'];
 $adoption_url = $row['adoption_url'];
 $location = $row['location'];
 $breed = $row['breed'];
