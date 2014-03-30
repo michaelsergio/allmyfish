@@ -96,8 +96,10 @@
     <img id="cat-img" src="<?php echo $image_url ?>" class="img-responsive centered" alt="Responsive image">
 	</div>
     <br/>
-    <div class="btn-group mw-btn-group container-fluid">
-      <br/>
+    <div style="margin-left:2px;margin-right:2px;">
+
+  <div class="btn-group mw-btn-group container-fluid" >
+
       <form action="http://plentyofcats.com/poc/cats.php" method="GET">
         <button id="meow" type="submit" class="btn col-sm-5  col-xs-5 btn-large btn-success meow-btn">Meow</button>
         <button id="notmeow" type="submit" class="btn col-sm-5 col-xs-5 btn-large btn-warning not-btn">Not</button>
@@ -121,7 +123,9 @@
     <a href="<?php echo $adoption_url ?>"><?php echo $adoption_url ?></a>
     </div>
   </div>
-</div> <!-- /container -->
+</div>
+</div>
+<!-- /container -->
 
 
     <!-- JS and analytics only. -->
