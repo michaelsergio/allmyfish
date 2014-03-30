@@ -24,7 +24,7 @@ $age = $row['age'];
 $image_url = $row['image_url'];
 $petfinder = "http://www.petfinder.com/petdetail/28343045".$row['petfinder_id'];
 
-include 'meowornot.html';
+include 'meowornot.php';
 ?>
 
 
