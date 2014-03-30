@@ -23,12 +23,13 @@ mysql_close();
 
 $row = mysql_fetch_array( $result, MYSQL_ASSOC );
 $cat_name = $row['name'];
-$adoption_url $row['adoption_url'];
+$desc = $row['description'];
+$adoption_url = $row['adoption_url'];
 $location = $row['location'];
 $breed = $row['breed'];
 $size = $row['size'];
 $age = $row['age'];
-$image_url; = $row['image_url'];
+$image_url = $row['image_url'];
 $petfinder = "http://www.petfinder.com/petdetail/28343045".$row['petfinder_id'];
 ?>
 
