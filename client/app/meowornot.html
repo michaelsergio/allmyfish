@@ -14,6 +14,8 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
         <script src="bower_components/underscore/underscore.js"></script>
         <script src="bower_components/backbone/backbone.js"></script>
 
@@ -26,7 +28,6 @@
         <!-- endbuild -->
 
 </head>
-    <body>
 
     <!-- Page content of course! -->
     <!-- Custom styles for this template -->
@@ -63,6 +64,7 @@
   }
 </style>
 
+<body>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
@@ -98,14 +100,15 @@
   </div>
 </div>
 
-<div class="container" id="cat">
-  <br />
-  <img src="http://placekitten.com/g/320/250" class="img-responsive" alt="Responsive image">
+<div class="container">
+  <div id="cat">
+    <br />
+    <img id="cat-img" src="http://placekitten.com/g/320/250" class="img-responsive" alt="Responsive image">
 
-  <br>
-  <button type="button" class="btn btn-default">Meow</button>
-  <button type="button" class="btn btn-default">Not</button>
-
+    <br>
+    <button type="button" class="btn btn-default">Meow</button>
+    <button type="button" class="btn btn-default">Not</button>
+  </div>
 </div> <!-- /container -->
 
 
@@ -133,9 +136,6 @@
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 
-        <!-- build:js(.tmp) scripts/coffee.js -->
-        <script src="scripts/hello.js"></script>
-        <!-- endbuild -->
 
         <!-- build:js scripts/fastclick.js -->
         <script src="scripts/fastclick.js"></script>
